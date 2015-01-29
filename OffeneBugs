@@ -1,0 +1,130 @@
+<hi zone
+
+extra nur für dich
+
+stand: 07.05.2014 17.00 uhr
+
+
+
+
+[offen]
+
+wichtig (dupping):
+- wenn man am ausloggen ist mit der 20 sec wartezeit und man wird "niedergeschlagen", dann kann man den "bewustlosen" plündern, 
+da er am boden liegt als wenn er "tot" wäre; da aber die items schon gespeichert sind, hat man nach dem einloggen die items noch
+- wenn ein spieler alt+f4 macht, liegt das zeuch wohl einige zeit am boden und kann gelootet werden
+
+- wenn die cops "respawnen", verdoppelt sich das zeuch im z-menü !!! (beim lobby hoppen wohl nicht)
+- wenn man als cop wiederbelebt wird, dann verdoppelt sich das zeuch im z-menü
+
+
+cops:
+- wenn man gestorben/respawn ist, bug das mausradmenü, es fehlen funktionen (beschlagn.,drogentest)
+- man kann bestimmte waffen nicht beschlagnahmen (cop waffen, pwd, sdar)
+
+- im z menü werden nur 24 items gespeichert, alles über 24 ist nach einem relog/respawn weg, egal ob man einen rucksack hat oder nicht
+- weitere drogen auf den test (k.a was noch fehlt)
+- weitere drogen benutzbar machen (k.a was noch fehlt)
+
+
+spieler:
+- wenn man gestorben/respawn ist, bug das mausradmenü, es fehlen funktionen, auch im hausmenü
+- wenn möglich ein delay einbaun damit man bei "reparatur" fahrzeugen nicht instand das andere fahrzeug repariert
+- ist es möglich die richtung zu bestimmen, wo man steht, wenn man aus einem fahrzeug aussteigt ?
+
+- wenn man mit einer langwaffe ausloggen will, braucht man nur 2x esc drücken, damit wird die seprre umgangen die waffe in den rucksack zu packen
+- aufsätze verschwinden nach relog, nur wenn die waffe im rucksack ist
+- waffen haben nach relog kein magazin mehr 
+- fehlende trucks in der liste, (ammo trucks)
+- im z menü werden nur 24 items gespeichert, alles über 24 ist nach einem relog/respawn weg, egal ob man einen rucksack hat oder nicht
+- Rebellen Hummingbird verliert seine extra Sitzflächen nachdem man ihn in die Garage gepackt hat. Der Skin bleibt jedoch erhalten
+- polizei motorboot hat kein blaulicht (nach druck auf shift-l passiert nichts, geht aber über mausrad als "funkfeuer" und es sieht scheisse aus^^)
+- polizei kannonenboot hat kein blaulicht (shift+l macht nur den scheinwerfer an)
+- weitere drogen benutzbar machen (k.a was noch fehlt)
+
+
+
+map:
+- schrottplatz missionen kann man wohl mit allen fahrzeugen machen
+- die reichweite zu allen händler kürzen, man kann aus großer entfernen handeln ect.
+- der waffen händler npc in talos steht bis zu den knien im boden
+- der cop händler npc im kavala hq (im haus der?) steht bis zu den knien im boden
+- beim spawnen im eigenen haus steht man quasi fast an in der kiste die im eigenem haus steht
+- tankstellen wieder ohne npc'S ? , kann man nicht nur bestimmte tankstellen mit npc machen und diese extra markieren auf der map ?
+- outfitter npc in sofia steht bis zu den knien im boden
+- market npc in sofia schwebt 1m über den boden
+- generall stroe npc in pyrgos schwebt 1m über den boden
+- market npc in pyrgos steht bis zu den knien im boden
+- im süd/östlichem rebellen lager (dp25) gibt es kein car shop für die rebellen
+- öl verarbeiter steht bis zu den knien im boden
+- zement händler schwebt über dem boden
+- man kann auf den Helipads PD3, sowie Alac HQ nicht auftanken, auch beim usen von "Auftanken bei Tankstelle (Zufuhr)" passierte nichts (spieler meldung, nicht getestet)
+- dp12, dp9, steht der npc bis zu den knien im boden
+
+
+hints:
+- ist es möglich für kavala einen hint für flugverbotszone zu machen , trigger abhängig für helis?
+
+
+
+
+berufe:
+- bierbrauer hat keinen prossesing balken, es kommt in der mitte nur text "braue bier" und nach ca 7 sec. ist es ferig
+
+
+housing:
+- wenn man ein haus durchsucht und waffen/items aus der kiste beschlagnahmt, sind die waffen/items wieder in der kiste, sobald der spieler wieder einloggt
+- wenn man rohstoffe (testet mit: salz,stein,rohen dias) ins haus inventar packt, sind die nach relog/restart noch immer vorhanden
+
+
+design:
+- der "schwarze" orca ist aber blau/weiss
+
+
+übersetzungen:
+- kiste auf/zuschliessen
+
+
+
+
+
+
+
+
+
+
+[erledigt]
+- wenn man ein fahrzeug "mietet", steht rechts oben der text das man es "gekauft" hat
+- beim atm in athira und am "air hq" fehlt die bezeichnung "atm" auf der map, man sieht nur das symbol
+- der atm in "Feres" (DP24), steht irgendwie besch***en
+- Abbrechen Button nun WIRKLICH 20 Sekunden bis verfügbar :)
+- Ingame Command !uptime - zeigt euch die Serverlaufzeit seit letztem Restart an. So seht ihr immer, wann der nächste Neustart ansteht (alle 5 Stunden)
+- wenn man eine waffen beim generall store npc in kavala (marktplatz) verkauft, wird die waffe nicht aus dem inventar entfernt, man bekommt aber das geld dafür, testet nur mit dem npc in kav, evtl bei anderen auch, beim rebellen npc wird die waffe aus dem inventar aber entfernt
+- inventar bug, nicht angelegte items im i inventar werden derzeitig bei jedem einloggen "verdoppelt" , repkit, medkit, waffen, kleidung, mützen, brillen, nvg, ammo und fernglas wird nicht verdoppelt
+- rebellen lizenz heist "schwarzmarkt-mitgliedschaft"
+- beim general store fehlt die übersetzung für "kaufen" screen
+- normale garage, scroll menü text, vehicle garage / store vehicle in garage
+(dupe methoden) 
+- waffen drop beim ausloggen, wenn man auslogt fällt die "ausgerüstete langwaffe" auf den boden und man kann diese aufnehmen, wohl nur bei zivis?!
+- xx geld abgeboben ist falsch übersetzt, es steht da: "du hast xx $ bezahlt"
+- Cops verlieren die vollständige ausrüstung nach server restart
+- auch wenn man die kiste im haus per scroll menü freigibt, können andere spieler nicht darauf zugreifen und verlieren ihr gesamtes zeuch (mit meldung rechts oben)
+- public cops slots noch immer verfügbar
+- fahrzeug voll, inventar voll übersetzung
+- meldung wenn man ein item aus dem z menü entfernt übersetzung
+- clothing händler, die kategorien noch auf englisch, hats, glasses ect
+- tauchshop übersetzung
+- verarbeitetes öl verbraucht zu viel platz (6 slots), besser wären 5 slots für verarbeitetes öl
+- beim bootshaus "neochori" muss der bootsspawn etwas weiter richtung meer verschoben werden (größere boote spawnen wohl in der kaimauer und explodieren)
+- kuper/eisenhändler englisch
+- bei den archeologie mission gibt es wohl schreibfehler (ficherboot)
+- zement händler englischer text
+- stein verarbeiter teilweise falscher text (rock)
+- eisen verarbeiter teilweise falscher text (iron)
+- haus auf/zuschliessen
+- rebellen car shop im südlichen lager "rebellen autoh"  das H !!^^
+- krankenhaus steht 2 mal links in der legende
+- todes screen, keine buttons zum respawn/medic rufen bei kleineren auflösungen
+- you have mined "öl/diamant"
+- atemgerät im tauchshop
+- sek gebiet fehlt

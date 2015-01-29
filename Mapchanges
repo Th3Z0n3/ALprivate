@@ -1,0 +1,54 @@
+25.4.14
+- neues Gefängnis
+- Altis Prime Air hinzugefügt
+
+Fixes:
+- Der waffenhändler in Talos sollte normal stehen
+- Der Cophändler im Kavala HQ sollte normal stehen
+- Outfitter in Sofia sollte normal stehen
+- Markt-NPC in Sofia sollte normal stehen
+- Market-NPC in Pyrgos sollte normal stehen
+- Gemischtwarenhändler ind Pyrgos sollte normal stehen
+- Ölverarbeiter sollte normal stehen
+- Zementkäufer sollte normal stehen
+
+24.4.14
+- Simulation auf Global
+- Fuel Feed testweise Simulation aktiviert
+
+
+23.4.14
+- ATM Marker- Text Entfernt
+- Garage Marker - Text entfernt
+- Helipad Marker - Text entfernt
+- Lazarett Marker hinzugefügt
+- Garage bei ALAC HQ
+- Gemischtwarenladen bei ALAC HQ
+- Weg zur Salzmine sichtbar gemacht (Vegetation per GrassCutter entfernt)
+
+22.4.14
+ - Neue Salzmine
+ 
+ 21.4.14
+ this animate ["Door_1_rot", 1] - beim HWP gelöscht
+- Helipad Syrta eingefügt
+- Heliport Oreokastro eingefügt
+- Kokainfeld 650m weiter NÖ verschoben
+- Helipad Abdera eingefügt und gefixt	
+- Neue Diamantenmine
+- Marktplatz gefixt (Bleuchtung funktioniert nun endlich)
+- Neues Polizei HQ in Kavala
+- Neuer Hafen in Kavala
+- Doktor in Kavala ist nun endlich ein Doktor
+- Doktor in Pyrgos hat seine Arbeit aufgenommen
+- Neuer Hafen in Pyrgos
+- Bootsspawn in Neochori weiter in den Hafen geschoben
+- Lazarett in Athira
+- Lazarett in Sofia
+ 
+
+
+
+
+
+Bugs:

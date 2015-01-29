@@ -1,0 +1,46 @@
+- Gangs und deren Leader werden in der Datenbank gespeichert, jedoch nicht geladen, wenn man sich neu einloggt (life_my_gang Abfrage?)
+--> Die Gangs werden aus der Datenbank geladen. Das Problem ist, dass im createGang Skript eine nicht definierte Variable (life_cash) verwendet wird:
+	Error in expression <arf maximal 25 Zeichen lang sein."};
+	if(life_cash < 10000) exitWith {hint "Es ko>
+	  Error position: <life_cash < 10000) exitWith {hint "Es ko>
+	  Error Nicht definierte Variable in Ausdruck: life_cash
+	File mpmissions\__cur_mp.Altis\core\gangs\fn_createGang.sqf, line 14
+	
+	Abfrage der DB ergibt folgendes:
+	"query player gangs: SELECT gangs.name, gangs.atmCash, gangs.leaderid, gangs.locked, players.name FROM gangs JOIN players on gangs.leaderid=players.playerid"
+	"sql : [[["ZonesGang","0","76561198015665404","false","K.Graham"],["testGang","0","76561198015546089","false","Lappihuan"]]] (ARRAY)"
+	"New Gang : ZonesGang - 0 - 76561198015665404 - false - K.Graham"
+	"New Gang : testGang - 0 - 76561198015546089 - false - Lappihuan"
+	"Created Gang Group - ZonesGang - false - K.Graham - 76561198015665404"
+
+- Housingskript funktioniert soweit, jedoch bekomme ich einen Nullteiler-Error in der life_server\initHousing.sqf line 54
+- Housingskript: Als Cop kann man zwar illegale Items "beschlagnahmen", jedoch hat der Besitzer trotzdem noch alles im Lagerraum des Hauses ???
+
+- Die Datei AlleFahrzeuge.xls beinhaltet, weitestgehend, alle Fahrzeuge die ins Spiel sollen. Alle Tempest (bis auf den Device,als teuerster Prestigetruck), 
+  sollen VOR den Hemtts stehen. Somit wäre es nötig, das die Preise, Slots etc. für alle Hemtts und Tempest nochmal neu berechnet werden müssen
+  Basti? Wärst du so lieb und würdest das machen? Du hast da ein besseres System als ich. Btw sollten 1000 Slots Obergrenze sein und 
+  es sollen ALLE Fahrzeuge rein. Bei den bewaffneten Fahrzeugen kannst du entscheiden, wie wir das am günstigsten machen.
+
+
+- Krokojäger -> neues Script von Cyborg testen: Funzt nicht
+
+
+
+
+
+stahl prossessing immernoch fehlerhaft
+	- Im Moment Verhältnis 1 Eisen: 1 Kohle, geplant 1:3
+	
+	
+	
+Nächste wichtige Schritte, die VOR dem Wipe gemacht werden müssen:
+1. Alle Fahrzeuge integrieren
+2. ALAC integrieren - volles Programm
+3. Rebellen als Fraktion integrieren - volles Programm
+	-> Wenn alle Fraktionen integriert sind, können (durch ein Script) keine Klamotten mehr untereinander getauscht/gestohlen werden
+
+	-> Was genau muss erledigt werden bis du das aktivieren kannst? Was brauchst du Maptechnisch? 
+		Rebelcity sollte heut Abend einsatzfertig sein.
+
+Bugs nach Milestone 1
+- PKW-Führerschein wird entzogen sobald man ins Gefängnis kommt

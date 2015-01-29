@@ -1,0 +1,59 @@
+- nitrado server geht nicht, schwarzes bild
+
+
+- wenn man als cop die sportlimo für 55k kauft, kann man sie in der garage für 100k verkaufen
+
+
+wichtig (dupping):
+	- wenn man am ausloggen ist mit der 5 sec wartezeit und man wird "niedergeschlagen", dann kann man den "bewustlosen" plündern,
+da er am boden liegt als wenn er "tot" wäre; da aber die items schon gespeichert sind, hat man nach dem einloggen die items noch, die leiche bleibt dann auch liegen
+	- wenn ein spieler alt+f4 macht, liegt das zeuch wohl einige zeit am boden und kann gelootet werden
+
+
+inventar ziviz:
+	- wenn man stirbt behält man sein z inventar, aber die slots werden mit 0 gezählt, http://www.pic-upload.de/view-23185896/bug_1.jpg.html
+		-wenn man z.b. dann 1 wasser trinkt, werden die slots mit -1 abgezeigt ect., mann kann dan auch nichts mehr dem z inventar hinzufügen, erst relog behebt das problem
+	- wenn man auslogt und mehr als 24 slots im z inventar belegt hat, wird alles über 24 slots entfernt beim einloggen, items die mehr plätze einnehmen werden auch entfernt
+		screens dazu: http://www.pic-upload.de/view-23185937/bug_2_vorher.jpg.html http://www.pic-upload.de/view-23185934/bug_2_nacher.jpg.html
+	- wenn man ein aufsatz auf der waffe hat und die waffe dann in den rucksack packt und relogt, ist der aufsatz von der waffe weg
+		wenn der aufsatz direkt im rucksack ist, dann verschindet der nicht
+	- waffen haben nach relog kein magazin mehr, ist aber im inventar dann vorhanden	
+
+
+aktionen beide:
+	- 	- wenn man gestorben/respawnt ist, bug das mausradmenü, es fehlen funktionen wie drogentest, waffe beschlagnahmen, auch im hausmenü wie tür auf, lageraum
+
+
+aktionen cops:
+	- wenn man in der nähe eines zivis steht der in dem augenblick in sein ruck schaut, hat man kurz das "gegenstände beschlagnahmen" im maus menü und kann es ausführen, man bekommt auch das geld dafür ohne das was entfernt wird
+	- führerscheinentzug (nur pkw) wenn man ins gefähngnis kommt
+	- Gefängnismenü Ä mit platzhalter (irgendwas unter 5 min jailtime sagte basti)
+	- wenn man in den knast kommt "ohne" fahndungsliste+kopfgeld, dann hat man die möglichkeit kaution zu bezahlen (1500)
+	- wenn man in den knast kommt "mit" fahndungsliste+kopfgeld, dann hat man keine möglichkeit kaution zu bezahlen
+
+
+inventar cops:
+	- waffen haben nach relog kein magazin mehr, ist aber im inventar dann vorhanden
+	
+	
+cop interaktions menü:
+	- wenn man eine gefesselte person nach "waffen" durchsucht, kommt einmalig fehlermeldung "config.bin/CfgWeapons.SmokeShellGreen", nach lobby und neuen durchsuchen dann die gleiche meldung, screen: http://www.directupload.net/file/d/3621/uqgpxps8_png.htm	
+
+
+map:
+	- schrott missionen sind mit der sportlimo machbar
+	- unterwasser archgedings ist mit auto machbar, mission bricht nicht ab, heli geht nicht, grad aufn coopy server testet
+	- wenn man stirbt bricht unterwasser archgedings nicht ab
+	- bootshaus nähe diamantenhändler npc wohl mehrmals nicht vorhanden, aufn testserver sehe ich den mehr am wasser stehen
+	- der spawn vom rent a heli sofia ist am airfield rent a heli spawn
+	
+
+housing:
+- wenn man ein haus durchsucht und waffen/items aus der kiste beschlagnahmt, sind die waffen/items wieder in der kiste, sobald der spieler wieder einloggt
+	(ist das nun behoben oder nicht ?)
+
+
+
+
+temp fix (deaktiviert):
+	- ist man gestorben (zivi) und wurde revieved dananach hat man eine waffe +6 mags und militär klamotten plus waffenholster (das war aber auch aufn testserver schon so glaube beim testen gestern), screen: http://www.pic-upload.de/view-23186512/bug_3.jpg.html
